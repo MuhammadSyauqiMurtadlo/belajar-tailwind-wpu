@@ -6,6 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Belajar Tailwind CSS Bersama Pak Dhika</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script>
+    // Tailwind CSS configuration
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1DA1F2',
+            secondary: '#14171A',
+          },
+          spacing: {
+            '13': '3.25rem', // Custom spacing example
+            '8': '2rem', // Custom padding example
+          },
+        },
+      },
+    };
+  </script>
+  <style type="text/tailwindcss">
+    * {
+      border: 1px solid red
+    }
+  </style>
 </head>
 
 <body>
@@ -15,6 +37,12 @@
   <p class="text-center mt-5">
     Ini adalah contoh penggunaan Tailwind CSS untuk membuat tampilan yang menarik.
   </p>
+
+  <h2>
+    Contoh Spacing
+  </h2>
+  <div class="m-13">Margin</div>
+  <div class="pt-8">Padding</div>
 </body>
 
 </html>
