@@ -12,37 +12,95 @@
       theme: {
         extend: {
           colors: {
-            primary: '#1DA1F2',
-            secondary: '#14171A',
+            syauqidev: '#bada55',
+            kopi: '#c0ffee',
           },
           spacing: {
             '13': '3.25rem', // Custom spacing example
             '8': '2rem', // Custom padding example
+          },
+          fontFamily: {
+            sans: [ 'Inter', 'sans-serif' ],
           },
         },
       },
     };
   </script>
   <style type="text/tailwindcss">
-    * {
+    /* * {
       border: 1px solid red
-    }
+    } */
   </style>
 </head>
 
 <body>
-  <h1 class="text-4xl font-bold text-center mt-10">
-    Selamat Datang di Belajar Tailwind CSS Bersama Pak Dhika
+  <h1 class="text-6xl font-bold text-center my-10">
+    Selamat Datang di Belajar <span
+      class="bg-gradient-to-r from-indigo-500 via-slate-100 to-yellow-300 bg-clip-text text-transparent">Tailwind
+      CSS</span> Bersama
+    Pak Dhika
   </h1>
   <p class="text-center mt-5">
     Ini adalah contoh penggunaan Tailwind CSS untuk membuat tampilan yang menarik.
   </p>
 
-  <h2>
-    Contoh Spacing
-  </h2>
-  <div class="m-13">Margin</div>
-  <div class="pt-8">Padding</div>
+  <section class="mb-10 bg-gradient-to-r from-indigo-500 to-yellow-500 p-6">
+    <h2 class="text-2xl font-semibold text-center">
+      Contoh Spacing
+    </h2>
+    <div class="m-13 bg-red-200">Margin</div>
+    <div class="py-8 bg-red-200">Padding</div>
+  </section>
+
+  <section class="mb-10 bg-green-300">
+    <h2 class="text-2xl font-semibold text-center">Contoh Sizing</h2>
+    <div class="w-32 h-32 bg-yellow-200">Kotak 1</div>
+  </section>
+
+  <section class="mb-96 font-sans max-w-3xl mx-auto px-4">
+    <h2 class="text-4xl font-bold mb-2">Belajar mengenai Typography pada TailwindCSS</h2>
+    <div class="text-gray-500 mb-4 text-lg">
+      By <a href="#" class="text-gray-700 font-semibold">Muhammad Syauqi Murtadlo</a>, 19 Juli 2025
+    </div>
+    <p class="mb-4">
+      Lorem ipsum dolor, sit amet <a href="#" class="text-blue-500 underline font-semibold">consectetur adipisicing
+        elit</a>. Vero molestias incidunt necessitatibus suscipit
+      inventore exercitationem tenetur minima corporis quia. Velit quod odio voluptatem eveniet odit assumenda libero
+      iusto sapiente voluptate.
+      Recusandae ad obcaecati quisquam culpa, quam aut hic. Animi temporibus laboriosam veritatis dolorem ullam quae
+      iusto. Corporis rem eos nulla doloribus deserunt, sit animi culpa beatae excepturi fugiat quae sint!
+      Tenetur, iste id. Cum sunt nihil, voluptatibus temporibus eos nobis asperiores. Non similique atque sunt. Quam,
+      voluptatum accusamus laborum mollitia, praesentium perferendis ducimus harum autem consequatur nemo officia quae
+      eligendi.
+      Sequi incidunt et corrupti debitis. Fugiat voluptates fuga obcaecati officia unde inventore laudantium beatae
+      doloribus itaque ipsam maxime repellendus possimus, aspernatur, suscipit natus soluta autem. Sapiente voluptas
+      modi ipsum odio.
+    </p>
+    <blockquote class="mb-4 italic font-thin text-lg">
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam omnis ut earum modi minima ullam nostrum
+      sunt
+      veniam, quod magnam natus tempora mollitia cumque voluptates corporis nisi doloribus reprehenderit fuga.
+      Cupiditate facilis, est deleniti, dolorem architecto odio enim soluta assumenda, nesciunt rem similique? Sed
+      tempora explicabo sunt assumenda optio obcaecati libero excepturi, quas enim sapiente necessitatibus repellendus!
+      Debitis, delectus non."
+    </blockquote>
+    <p class="mb-4">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum nisi porro minus aperiam iure obcaecati, esse
+      architecto labore autem cupiditate sit libero vero qui animi dicta unde aliquam debitis ad.
+      Provident iste vero vel velit in molestiae deserunt. Totam, accusantium accusamus. Rerum ipsam inventore harum
+      architecto consequuntur soluta alias quos aspernatur neque nostrum dicta omnis provident, ad et mollitia
+      deserunt!
+      Id, voluptatem? Vel incidunt natus harum mollitia accusantium inventore dicta perspiciatis, blanditiis quasi
+      officiis sint autem. Voluptates quaerat vero eveniet suscipit? Ab, eaque. Iste ullam animi dolores! Earum, sequi
+      quis.
+      Aut rerum culpa libero, aliquid accusamus non corporis dolorem tenetur alias accusantium. Incidunt sunt soluta,
+      eaque deleniti tempore totam eius? Veniam ad quaerat porro at quibusdam unde autem ipsa esse!
+      Optio, sint ipsa eligendi in, aut voluptatum perferendis, commodi cupiditate quibusdam velit minima fugiat
+      reiciendis praesentium ex? Reiciendis magnam dolores, sit laboriosam, illum tempore veritatis cumque et
+      exercitationem iure necessitatibus.
+    </p>
+  </section>
+
 </body>
 
 </html>
